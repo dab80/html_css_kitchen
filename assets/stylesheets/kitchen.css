@@ -10,13 +10,13 @@ border included in the element's total width and height
 
 /*
 Set some common styles for the body of the page
- - backgroud color to black
+ - backgroud color to saddlebrown
  - text color to white
  - font to helvetica
  - font size to 16px
 */
 body {
-  background-color: black;
+  background-color: saddlebrown;
   color: white;
   font-family: helvetica;
   font-size: 16px;
@@ -66,7 +66,7 @@ style the elements with a class of card
  - float cards to the left
  - background color of white
  - align the text to the center
- - make the text color black
+ - make the text color saddlebrown
  - set the background size to contain //Scale the image to the largest size such that both its width and its height can fit inside the content area
  - set the background to not repeat
 */
@@ -78,7 +78,7 @@ style the elements with a class of card
   float: left;
   background-color: white;
   text-align: center;
-  color: black;
+  color: saddlebrown;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -89,7 +89,7 @@ style the element with the id of hero
  - height of 450px
  - set the background size to cover //Scale the background image to be as large as possible so that the background area is completely covered by the background image.
  - set the background to not repeat
- - set the background image to our hero image (travel_hero.jpg) in our assets/images directory
+ - set the background image to our hero image (kitchen_hero.jpg) in our assets/images directory
 */
 #hero {
   width: 100%;
@@ -97,39 +97,39 @@ style the element with the id of hero
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image: url("../images/travel_hero.jpg");
+  background-image: url("../images/restaurant-c-michiel-van-der-eerde-amsterdam-1.jpg");
 }
 
 /*
  target the element with the id of spain
  set the background image to (spain_flag.svg) in our assets/images directory
 */
-#spain {
-  background-image: url("../images/spain_flag.svg");
+#rest_1 {
+  background-image: url("../images/rocky-point.jpg");
 }
 
 /*
  target the element with the id of italy
  set the background image to (italy_flag.svg) in our assets/images directory
 */
-#italy {
-  background-image: url("../images/italy_flag.svg");
+#rest_2 {
+  background-image: url("../images/casanova.jpg");
 }
 
 /*
  target the element with the id of aruba
  set the background image to (aruba_flag.svg) in our assets/images directory
 */
-#aruba {
-  background-image: url("../images/aruba_flag.svg");
+#rest_3 {
+  background-image: url("../images/grasing-s-sign.jpg");
 }
 
 /*
  target the element with the id of chile
  set the background image to (chile_flag.svg) in our assets/images directory
 */
-#chile {
-  background-image: url("../images/chile_flag.svg");
+#rest_k {
+  background-image: url("../images/my_kitchen.jpeg");
 }
 
 /*
@@ -215,12 +215,12 @@ style the element with the id of hero
 
 /*
  target the table element
-  - give a 2px black solid border to the table
+  - give a 2px saddlebrown solid border to the table
   - collaps the border to remove spacing between cells
   - make the width 100%
 */
 table {
-  border-color: black;
+  border-color: saddlebrown;
   border-style: solid;
   border-width: 2px;
   width: 100%;
@@ -229,39 +229,39 @@ table {
 
 /*
  target the tr, td, and th elements
-  - give a 2px black solid border to the table
+  - give a 2px saddlebrown solid border to the table
 */
 tr, td, th {
-  border-color: black;
+  border-color: saddlebrown;
   border-width: 2px;
 }
 
 /*
  target the th element
-  - set the background color to black
+  - set the background color to saddlebrown
   - set the text color to white
 */
 th {
-  background-color: black;
+  background-color: saddlebrown;
   color: white;
 }
 
 
 /*
- target the element with the id of travel-table
-  - make the text color black
+ target the element with the id of kitchen-table
+  - make the text color saddlebrown
   - make the background color white
 */
-#travel-table {
-  color: black;
+#kitchen-table {
+  color: saddlebrown;
   background-color: white;
 }
 
 /*
- target the h3 element within the element with the id of travel-table
+ target the h3 element within the element with the id of kitchen-table
   - center align the text
 */
-#travel-table h3 {
+#kitchen-table h3 {
   text-align: center;
 }
 
